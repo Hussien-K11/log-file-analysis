@@ -22,20 +22,26 @@ The script parses Apache access logs, detects failed login attempts (HTTP 401), 
 
 ## 📁 Project Structure
 
-📁 Log-File-Analysis/
+ ```
+Log-File-Analysis/
 
-├── 📁 data/  
-│ └── sample_logs/
-│ └── access.log
+├── data/  
+│   ├── sample_logs/
+│   └── access.log 
+│   
 ├── docs/
-│ └── screenshots/
+|   ├── screenshots/
+│   ├── read-log-file-output.png
+│   ├── regex-parse-output.png
+│   ├── failed-login-detection-output.png
+│   ├── top-ips-output.png
+│   └── repeated-failed-logins-output.png
 ├── src/
-│ └── log_parser.py
+│   └── log_parser.py
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
-
+```
 ---
 
 ## 🛠️ Tools & Skills Used
