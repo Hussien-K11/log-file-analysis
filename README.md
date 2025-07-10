@@ -90,18 +90,24 @@ Log-File-Analysis/
 | SOC Awareness               | Focused on identifying indicators of suspicious access attempts |
 
 ---
-
 ## ➅ Visual Outputs
 
-These screenshots demonstrate the core stages of the analysis:
+These visuals illustrate key stages of the log analysis, including regex parsing, failed login detection, and suspicious IP grouping.
 
-| Screenshot File                          | Description                                                      |
+<details>
+<summary>Click to expand full screenshots</summary>
+
+<br>
+
+| Screenshot                          | Description                                                      |
 |------------------------------------------|------------------------------------------------------------------|
-| `read-log-file-output.png`               | Reading each log entry line-by-line with line numbers            |
-| `regex-parse-output.png`                 | Extracting structured fields using regex (IP, URL, status, etc.) |
-| `failed-login-detection-output.png`      | Detecting 401 unauthorized attempts and displaying full context  |
-| `top-ips-output.png`                     | Listing the top IPs based on request volume                      |
-| `repeated-failed-logins-output.png`      | Highlighting IPs with 2+ failed login attempts                   |
+| ![](docs/screenshots/read-log-file-output.png)               | Reading each log entry line-by-line with line numbers            |
+| ![](docs/screenshots/regex-parse-output.png)                 | Extracting structured fields using regex (IP, URL, status, etc.) |
+| ![](docs/screenshots/failed-login-detection-output.png)      | Detecting 401 unauthorized attempts and displaying full context  |
+| ![](docs/screenshots/top-ips-output.png)`                     | Listing the top IPs based on request volume                      |
+| ![](docs/screenshots/repeated-failed-logins-output.png)      | Highlighting IPs with 2+ failed login attempts                   |
+
+</details>
 
 ---
 
