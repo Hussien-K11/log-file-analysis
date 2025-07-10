@@ -7,6 +7,8 @@
 ![Status](https://img.shields.io/badge/status-Completed-brightgreen)
 ![Security Level](https://img.shields.io/badge/focus-SOC%20Analyst%20Training-orange)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![Demo Available](https://img.shields.io/badge/demo-available-blueviolet?style=flat-square)
+
 
 **Status:** ✅ Completed  
 **Focus:** SOC Analyst Training & Threat Detection Logic  
@@ -81,6 +83,9 @@ Log-File-Analysis/
 ---
 
 ## ➃ Core Logic & Implementation
+
+Below is a step-by-step summary of the main logic flow in the script.  
+Click to expand for a breakdown of how suspicious behaviour is detected:
 
 <details>
 <summary>⇨ Detection Flow</summary>
