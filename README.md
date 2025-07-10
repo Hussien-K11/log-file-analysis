@@ -6,6 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/status-Completed-brightgreen)
 ![Security Level](https://img.shields.io/badge/focus-SOC%20Analyst%20Training-orange)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 **Status:** ✅ Completed  
 **Focus:** SOC Analyst Training & Threat Detection Logic  
@@ -20,6 +21,23 @@ This project simulates a critical SOC (Security Operations Center) responsibilit
 - Detect **401 Unauthorized login attempts**
 - Flag **high-volume IP addresses**
 - Identify **possible brute-force patterns**
+
+---
+
+### 🔁 Visual Demo: Watch It In Action
+
+<details>
+<summary>▶️ Click to view the animated demo</summary>
+
+<br>
+
+This short demo shows the full script in action — including regex-based parsing, failed login detection, and top IP extraction.
+
+<p align="center">
+  <img src="docs/screenshots/log-analysis-demo.gif" alt="Log File Analysis Demo" width="700"/>
+</p>
+
+</details>
 
 ---
 
@@ -104,7 +122,7 @@ These visuals illustrate key stages of the log analysis, including regex parsing
 | ![](docs/screenshots/read-log-file-output.png)               | Reading each log entry line-by-line with line numbers            |
 | ![](docs/screenshots/regex-parse-output.png)                 | Extracting structured fields using regex (IP, URL, status, etc.) |
 | ![](docs/screenshots/failed-login-detection-output.png)      | Detecting 401 unauthorized attempts and displaying full context  |
-| ![](docs/screenshots/top-ips-output.png)`                     | Listing the top IPs based on request volume                      |
+| ![](docs/screenshots/top-ips-output.png)                     | Listing the top IPs based on request volume                      |
 | ![](docs/screenshots/repeated-failed-logins-output.png)      | Highlighting IPs with 2+ failed login attempts                   |
 
 </details>
@@ -133,7 +151,7 @@ This project builds muscle memory for:
 
 ---
 
-## ➇ What I’d Add Next
+## ➈ What I’d Add Next
 
 | Feature                    | Value Add                        |
 |---------------------------|----------------------------------|
@@ -166,4 +184,6 @@ This project wasn’t just about writing a script — it was about learning how 
 - **Focus:** Threat detection via log analysis  
 - **Skills:** Regex, log parsing, frequency analysis, brute-force identification  
 - **Outcome:** Reinforced key SOC-level capabilities with a clean, documented solution
+- **Demo:** [See script in action ↗](#🔁-visual-demo-watch-it-in-action)
+
 
