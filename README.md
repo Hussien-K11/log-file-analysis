@@ -143,7 +143,7 @@ This project builds muscle memory for:
 - Thinking like a threat analyst
 - Turning raw data into actionable insights
 
-> You’re not just scripting — you’re **simulating the detection mindset**.
+> You’re not just scripting, you’re **simulating the detection mindset**.
 
 ---
 ## ➇ Detection Mapping
@@ -179,7 +179,7 @@ Aspiring Cybersecurity Analyst
 
 ## 🧭 Final Reflection
 
-This project wasn’t just about writing a script — it was about learning how to think like an analyst. I translated raw logs into actionable intelligence, practiced detection logic, and took a step closer to real-world SOC workflows.
+This project wasn’t just about writing a script, it was about learning how to think like an analyst. I translated raw logs into actionable intelligence, practiced detection logic, and took a step closer to real-world SOC workflows.
 
 ---
 
